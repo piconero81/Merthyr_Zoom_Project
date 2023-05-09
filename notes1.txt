@@ -1,0 +1,9 @@
+import netmiko
+dir(netmiko)
+import logging
+logging.basicConfig(filename='test.log', level=logging.DEBUG)
+logger = logging.getLogger("netmiko")
+ssh_session = netmiko.ConnectHandler(ip="192.168.0.46", device_type="cisco_ios", username="admin", password="cisco")
+print(ssh_session.send_command("sh ip int br"))
+print(ssh_session.send_command("config t"))
+ssh_session.disconnect()

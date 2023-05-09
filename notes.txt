@@ -1,0 +1,59 @@
+name = input('what is your name?')
+print('Hi ' + name)
+age = input('what is you age?')
+print(age + 'years of age')
+weight = input('enter your weight in kg')
+print(weight + 'kilo')
+
+
+full_name = input('What is your name?')
+color = input('What is your fav colour?')
+print(full_name + ' likes ' + color)
+
+
+birth_year = input('Birth yeah: ')
+age = 2020 - int(birth_year)
+print(age)
+
+weight_lbs = input('what is your weight (lbs): ')
+weight_kg = int(weight_lbs) * 0.4
+print(weight_kg)
+===============================
+course = '''
+Hi Franco,
+
+Here are my lab results.
+
+regards
+franco
+
+
+'''
+print(course)
+=====================================
+
+course = 'Python for Beginners'
+print (course[-2])
+
+
+first = 'franco'
+last = 'isaac'
+message = first + ' [' + last + '] is a coder'
+msg = f'{first} [{last}] is a coder'
+print(msg)
+
+
+
+message = 'i am franco isaac'
+print(len(message))
+
+
+
+import telnetlib
+
+HOST = "192.168.0.248"
+
+tn = telnetlib.Telnet(HOST, 22) # host, port, timeout
+
+tn.write("Hello World!".encode('ascii'))
+print(tn.read_all())
