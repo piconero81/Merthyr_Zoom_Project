@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import ttk
-#Create an instance of Tkinter frame
+#Create an instance of Tkinter frame 1
 root = Tk()
 #Set the geometry of Tkinter frame
 root.geometry("700x270+600+500")
