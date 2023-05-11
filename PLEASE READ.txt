@@ -1,0 +1,2 @@
+These programs are used by the Merthyr Tyfid Congregations to host congregation meetings -  DO NOT MOVE OR DELETE
+In addition this program is linked to a batch file in c:\Merthyr_Host.bat - Please do NOT delete or move this file
