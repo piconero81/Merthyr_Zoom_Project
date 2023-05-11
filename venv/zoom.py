@@ -10,7 +10,7 @@ driver= webdriver.Chrome('c:\software\chromedriver.exe')
 
 import os
 import subprocess
-os.remove(r"C:\Users\wanka\AppData\Local\Google\Chrome\User Data\Profile 8\Network\Cookies")
+os.remove(r"C:\Users\KHUser\AppData\Local\Google\Chrome\User Data\Default")
 
 from tkinter import *
 from tkinter import ttk
@@ -27,7 +27,7 @@ Label(root, text=" Please do not use Mouse and Keyboard while Zoom is Loading...
 ttk.Button(root, text= "Close", command= Close).pack()
 root.mainloop()
 
-os.chdir(r"C:\Users\wanka\Documents\OnlyM\Media")
+os.chdir(r"C:\Users\KHUser\Documents\OnlyM\Media")
 all_files = os.listdir()
 
 for f in all_files:
